@@ -1,0 +1,61 @@
+body{
+    background: white;
+    background-color:hsl(0, 0%, 93%);
+    padding:15px;
+    margin: 0;
+}
+#main{
+    margin: 10px;
+}
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1%;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 5px;
+    margin: 0;
+  }
+  #tribute-info{
+    font-size: medium;
+    line-height: 200%;
+    
+  }
+
+  ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  #img-caption{
+      text-align: center;
+  }
+  @media(max-width:500px)
+  {
+    #img-caption{
+        font-size: 5px;
+    }
+    #img{
+        max-width:100px;
+        height:auto;
+    }
+  }
+  #tribute-link{
+  text-align: center;
+  font-size: 25px;
+  }
+  a:link{
+      color:blue;
+      }
+  
+  a:hover{
+      color: rgb(226, 43, 43);
+  }
